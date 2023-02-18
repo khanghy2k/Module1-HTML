@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+  div.Container{
+    width: 600px;
+    height: 500px;
+    background-color:yellow;
+    text-align: start;
+  }
+  h1 {
+    margin: 10px;
+    font-weight: 300;
+    color: blue;
+    background-color: aquamarine;
+  }
+  .form {
+    padding: 0px;
+    margin: 0px;
+  }
+  .nutt {
+    margin: 10px;
+    margin-left: 100px;
+  }
+  #phone{
+    margin: 10px;
+  }
+  #email {
+    margin: 10px;
+    margin-left: 38px;
+  }
+  #class {
+    margin: 10px;
+    margin-left:50px;
+  }
+  #address {
+    margin: 10px;
+    margin-left:25px;
+  }
+  #name {
+    margin: 10px;
+  }
+  #date {
+    margin: 10px;
+    margin-left:15px;
+  }
+
+</style>
+<div class="Container">
+<h1>Đăng Ký Học Viên</h1>
+  <div class="form">
+  <form action="" method="post">
+    <label>Họ Và Tên</label>
+    <input id="name" type="text" ><br>
+    <label>Ngày Sinh</label>
+    <input id="date" type="date">
+    <div class="sex">
+      <label>Giới Tính</label>
+      <input type="radio">Nam</input>
+      <input type="radio">Nữ</input>
+    </div>
+    <label>Địa Chỉ</label>
+    <textarea name="address" id="address" cols="20" rows="4"></textarea><br>
+    <label>Lớp</label>
+    <select id="class" name="class">
+      <option>Chọn Lớp</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select><br>
+    <label>Email</label>
+    <input id="email" type="email"><br>
+    <lab>Điện thoại</lab>
+    <input id="phone" type="number"><br>
+    <div class="nutt">
+    <input id="sumbit" type="submit" value="Đăng Ký">
+    <input id="reset" type="reset" value="Nhập Laị">
+    </div>
+  </form></div>
+
+  </div>
+</body>
+</html>
