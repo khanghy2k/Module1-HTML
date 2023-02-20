@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .survey{
+        width: 400px;
+        height: 100%;
+        position: absolute;
+    }
+    tr:nth-child(even) {
+        background-color: #eee;
+    }
+
+
+</style>
+<div class="survey">
+<b>What is your age range?</b><br>
+    <select name="age" style="width: 300px">
+        <option value="18">18</option>
+        <option value="18">18</option>
+        <option value="18">18</option>
+        <option value="18">18</option>
+        <option value="18">18</option>
+    </select><br>
+<b>What is your yearyly income range?</b><br>
+    <select name="income" style="width: 300px">
+        <option value="$0">$0</option>
+        <option value="$0">$0</option>
+        <option value="$0">$0</option>
+        <option value="$0">$0</option>
+    </select><br>
+    <b>Gender Identity</b>
+    <div id="gender">
+        <input type="radio">Male</input><br>
+        <input type="radio">Female</input><br>
+        <input type="radio">Nonbinary</input><br>
+        <input type="radio">Other<br>
+        <input type="text"/>
+    </div>
+    <b>Which of the following products have your purchased in the last 2 months.Please check all that apply</b>
+    <div id="product">
+        <input type="checkbox">Product 1</input><br>
+        <input type="checkbox">Product 2</input><br>
+        <input type="checkbox">Product 3</input>
+    </div>
+    <b>How often would you use our new product ?</b>
+        <div id="daily">
+            <input type="radio">Daily</input><br>
+            <input type="radio">Weekly</input><br>
+            <input type="radio">Monthly</input><br>
+        </div>
+    <b>What would you pay for the new product ?</b>
+        <div id="dollars">
+            $<input type="number" style="width: 50px">.<input type="number" style="width: 10px">
+        </div>
+    <b>Dollars</b>
+    <b>Cents</b><br>
+    <b>What features would you like to see in the new product</b>
+    <textarea></textarea><br>
+    <p>Please rate your level of agreement with the following statements</p>
+    <div id="statemaents">
+        <table border="1">
+            <tr>
+               <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly Disagree</th>
+            </tr>
+            <tr>
+                <td>Our products are priced fairly</td>
+                <td><input type="radio">1</td>
+                <td><input type="radio">2</td>
+                <td><input type="radio">3</td>
+                <td><input type="radio">4</td>
+            </tr>
+            <tr>
+                <td>Our products are priced fairly</td>
+                <td><input type="radio">1</td>
+                <td><input type="radio">2</td>
+                <td><input type="radio">3</td>
+                <td><input type="radio">4</td>
+            </tr>
+            <tr>
+                <td>Our products are priced fairly</td>
+                <td><input type="radio">1</td>
+                <td><input type="radio">2</td>
+                <td><input type="radio">3</td>
+                <td><input type="radio">4</td>
+            </tr>
+        </table>
+    </div>
+    <input type="submit" style="width: 100px;margin: 10px">
+
+</div>
+</body>
+</html>
